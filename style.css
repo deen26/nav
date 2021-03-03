@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .wrapper{
-    background-color: burlywood;
-    height: 60px;
+    background-color:#1a1a00;
+    height: 50px;
     width: 100%;
 }
 .menu{
@@ -29,6 +29,7 @@ ul{
 li{
     display: inline-block;
     padding: 20px , 15px;
+    line-height: 40px;
 
 }
 a{
@@ -38,6 +39,22 @@ a{
     margin-left: 20px;
     padding: 10px 10px;
 }
+.wrappers ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+    
+}
+.wrappers ul li{
+    display: inline-block;
+    padding: 20px , 15px;
+
+}
+.wrappers ul li a{
+    text-align: center;
+    color:#4d4d33;
+}
+
 .sidebar{
     position: fixed;
     background-color: aqua;
