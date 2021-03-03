@@ -6,17 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nav</title>
     <style>
-        .wrapper{
-            border: 1px;
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .menu{
+            background-color: blue;
+        }
+        label{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+            font-weight: bold;
+            float: left;
+            margin: 15px , 15px;
+            padding: 12px,10px;
         }
         ul{
             width: auto;
             float: right;
             margin-top: 8px;
+            
+        }
+        li{
+            display: inline-block;
+            padding: 20px , 15px;
+
+        }
+        a{
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            margin-left: 20px;
+            padding: 10px 10px;
         }
     </style>
-     <div class="wrapper">
         <div class="menu">
+            <label for="logo">Fast Food</label>
             <ul>
                 <li><a href="Home">Home</a></li>
                 <li><a href="About Us">About Us</a></li>
