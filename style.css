@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: burlywood;
+    height: 60px;
+    width: 100%;
+}
+.menu{
+    background-color: blue;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    color: teal;
+    font-size: 23px;
+    font-weight: bold;
+    float: left;
+    padding: 0px,100px;
+    line-height: 60px;
+}
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+    
+}
+li{
+    display: inline-block;
+    padding: 20px , 15px;
+
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color:whitesmoke;
+    margin-left: 20px;
+    padding: 10px 10px;
+}
