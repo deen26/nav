@@ -53,6 +53,14 @@ a{
     text-align: center;
     color:#4d4d33;
 }
+#mainnav{
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    color: #ccffff;
+    line-height: 50px;
+
+}
 
 .sidebar{
     position: fixed;
@@ -69,7 +77,12 @@ a{
     color:#e6f2ff;
     width: 150%;
     height: 100%;
-    line-height: 60px;
+    line-height: 30px;
     box-sizing: border-box;
     border-top: 1px solid grey;
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+.sidebar ul li:hover a{
+    padding-left: 50px;
 }
