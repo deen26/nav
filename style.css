@@ -36,6 +36,12 @@ a{
     color:whitesmoke;
     margin-left: 20px;
     padding: 10px 10px;
+    transition: .4s;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: grey;
+    border-radius: 15px;
 }
 .wrappers ul{
     width: auto;
@@ -52,6 +58,10 @@ a{
     float: left;
     text-align: center;
     color:#4d4d33;
+}
+.wrappers ul li a:hover{
+    background-color: honeydew;
+    border-radius: 15px;
 }
 #mainnav{
     display: inline-block;
@@ -85,4 +95,6 @@ a{
 }
 .sidebar ul li:hover a{
     padding-left: 50px;
+    background-color: #00001a;
+    border-radius: 18px;
 }
