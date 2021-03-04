@@ -98,8 +98,14 @@ a:hover{
     background-color: #00001a;
     border-radius: 18px;
 }
-.table{
-    display: inline-block;
-    width: 180px;
+.table th {
+    margin-left: 100px;
+    padding-left: 200px;
+}
+.table td{
+    display:block;
+    margin: auto;
+    padding: 80px;
+    line-height: 20px;
 }
     
