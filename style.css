@@ -99,6 +99,7 @@ a:hover{
     border-radius: 18px;
 }
 .table{
-
+    display: inline-block;
+    width: 180px;
 }
     
