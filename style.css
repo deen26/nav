@@ -105,15 +105,5 @@ a:hover{
     background-color: #00001a;
     border-radius: 18px;
 }
-.section{
-    width: auto;
-    padding-top: 10rem;
-    border-left: 200px;
-    padding-left: 200px;
-}
-.section table td{
-    float: left;
-    text-align: left;
-    line-height: normal;
-}
+/*End of Project*/
 
