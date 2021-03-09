@@ -103,7 +103,7 @@ a:hover{
     margin-left: 100px;
     padding-left: 200px;
 }
-.table tr{
+.table th tr{
     display: block;
     margin: auto;
     padding: 80px;
