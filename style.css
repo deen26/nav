@@ -107,8 +107,9 @@ a:hover{
     width: auto;
     border-left: 200px;
     padding-left: 200px;
-    display:inline-block;
+}
+.section table td{
     text-align: left;
-
+    line-height: normal;
 }
 
