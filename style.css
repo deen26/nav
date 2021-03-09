@@ -73,6 +73,8 @@ a:hover{
     font-size: 14px;
     color: #ccffff;
     line-height: 50px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
 }
 /*sidebar*/
@@ -105,10 +107,12 @@ a:hover{
 }
 .section{
     width: auto;
+    padding-top: 10rem;
     border-left: 200px;
     padding-left: 200px;
 }
 .section table td{
+    float: left;
     text-align: left;
     line-height: normal;
 }
