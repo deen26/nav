@@ -66,6 +66,7 @@ a:hover{
     background-color: honeydew;
     border-radius: 15px;
 }
+/*navigation*/
 #mainnav{
     display: inline-block;
     text-align: left;
@@ -74,6 +75,7 @@ a:hover{
     line-height: 50px;
 
 }
+/*sidebar*/
 
 .sidebar{
     position: fixed;
